@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+ 
+    background-color: rgb(246, 246, 246);
+}
+
+.bar {
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    /* background-color: red;*/
+    display: flex;
+    background-image: url(/images/logo.png);
+    margin: 20px 0px 0px 40px;
+    width: 110px;
+    height: 110px;
+    background-size: 80px;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    line-height: 27px;
+
+}
+
+.subs {
+    /* background-color: pink;*/
+    color: rgb(0, 0, 0);
+    margin: 0px 0px 0px 40px;
+    width: 110px;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.partner {
+    /* background-color: blue;*/
+    display: flex;
+    width: 100%;
+    justify-content: center;
+
+}
+
+.menu {
+    /* background-color: yellow;*/
+    width: 100%;
+    word-spacing: 80px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.content {
+   /* background-color: red;*/
+    margin: 40px 40px 40px 40px;
+}
+
+.head {
+  /*  background-color: blue;*/
+    margin: 40px 40px 10px 40px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Tangerine', cursive;
+    font-size: 38px;
+    font-weight: 500;
+}
+
+.info{
+  /*  background-color: aquamarine;*/
+    margin: 10px 130px 10px 130px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.gallery{
+    margin: 10px 130px 10px 130px;
+}
+
+img{
+    width: 300px;
+    height: 300px;
+}
