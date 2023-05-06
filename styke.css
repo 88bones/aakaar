@@ -49,7 +49,7 @@ h1 {
 }
 
 .menu {
-    /* background-color: yellow;*/
+    /*background-color: yellow;*/
     width: 100%;
     word-spacing: 80px;
     text-align: center;
@@ -61,8 +61,8 @@ a {
 }
 
 .content {
-   /* background-color: red;*/
-    margin: 40px 40px 40px 40px;
+   /*background-color: red;*/
+    margin: 40px 40px 40px 40px;    
 }
 
 .head {
@@ -71,7 +71,7 @@ a {
     display: flex;
     justify-content: center;
     font-family: 'Tangerine', cursive;
-    font-size: 38px;
+    font-size: 48px;
     font-weight: 500;
 }
 
@@ -84,9 +84,19 @@ a {
 
 .gallery{
     margin: 10px 130px 10px 130px;
+    /*background-color: aqua;*/
+    word-spacing: 10px;
 }
 
 img{
+    
     width: 300px;
     height: 300px;
+}
+
+.closer{
+    margin-top: 90px;
+    background-color: rgb(214, 212, 212);
+    text-align:center;
+    color: rgb(115, 115, 115);
 }
