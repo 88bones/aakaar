@@ -6,45 +6,50 @@
 
 body {
     font-family: 'Poppins', sans-serif;
- 
-    background-color: rgb(246, 246, 246);
+    
+
+    background-color: rgb(255, 254, 245);
 }
 
 .bar {
+
     display: flex;
     align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: rgb(255, 254, 245);
 }
 
 h1 {
-    /* background-color: red;*/
+   /*background-color: red;*/
     display: flex;
     background-image: url(/images/logo.png);
-    margin: 20px 0px 0px 40px;
-    width: 110px;
-    height: 110px;
-    background-size: 80px;
+    margin: 5px 0px 0px 60px;
+    width: 60px;
+    height: 60px;
+    background-size: 50px;
     background-repeat: no-repeat;
     background-position: center;
-
-    line-height: 27px;
+    line-height: 20px;
 
 }
 
 .subs {
-    /* background-color: pink;*/
+    /*background-color: pink;*/
     color: rgb(0, 0, 0);
-    margin: 0px 0px 0px 40px;
-    width: 110px;
-    font-size: 24px;
+    margin: 0px 0px 0px 55px;
+    width: 60px;
+    font-size: 16px;
     font-weight: 700;
     text-align: center;
 }
 
 .partner {
-    /* background-color: blue;*/
+   /* background-color: blue;*/
     display: flex;
     width: 100%;
     justify-content: center;
+    position: fixed;
 
 }
 
@@ -56,17 +61,34 @@ h1 {
 }
 
 a {
-    text-decoration: none;
+    text-decoration: solid;
     color: black;
 }
 
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-transform: uppercase;
+    color: rgb(74, 74, 74);
+}
+
+a:active {
+    text-decoration: underline;
+}
+
 .content {
-   /*background-color: red;*/
-    margin: 40px 40px 40px 40px;    
+    /*background-color: red;*/
+    margin: 40px 40px 40px 40px;
 }
 
 .head {
-  /*  background-color: blue;*/
+    /*  background-color: blue;*/
     margin: 40px 40px 10px 40px;
     display: flex;
     justify-content: center;
@@ -75,28 +97,103 @@ a {
     font-weight: 500;
 }
 
-.info{
-  /*  background-color: aquamarine;*/
+.info {
+    /*  background-color: aquamarine;*/
     margin: 10px 130px 10px 130px;
     text-align: center;
     font-weight: 400;
 }
 
-.gallery{
+.gallery {
     margin: 10px 130px 10px 130px;
     /*background-color: aqua;*/
     word-spacing: 10px;
 }
 
-img{
-    
+img {
+    border-radius: 40px;
     width: 300px;
     height: 300px;
 }
 
-.closer{
+.closer {
     margin-top: 90px;
     background-color: rgb(214, 212, 212);
-    text-align:center;
+    text-align: center;
     color: rgb(115, 115, 115);
+}
+
+/*.whole{
+    background-color: rgb(255, 253, 245);
+}*/
+
+.about {
+    /* background-color: red;*/
+    padding-top: 40px;
+    margin: 10px 130px 10px 130px;
+}
+
+.abouthead {
+    /*background-color: blue;*/
+    margin: 40px 40px 5px 40px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Tangerine', cursive;
+    font-size: 48px;
+    font-weight: 500;
+}
+
+.card1 {
+    border-radius: 40px;
+    display: flex;
+    background-color: rgb(220, 220, 220);
+}
+
+.card1img {
+    padding: 30px;
+    border-radius: 40px;
+}
+
+.cardtext1 {
+    padding-top: 30px;
+}
+
+.card2 {
+    border-radius: 40px;
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+    background-color: rgb(198, 198, 198);
+}
+
+.img2hold {
+
+    /* background-color: gold;*/
+    justify-content: flex-end;
+    display: flex;
+}
+
+.card2img {
+    /* background-color:green;*/
+    display: flex;
+    padding: 30px;
+    border-radius: 40px;
+
+}
+
+.card2hold {
+    /* background-color: blue;*/
+    width: 100%;
+    display: flex;
+    justify-content: right;
+}
+
+.cardtext2 {
+    /* background-color: red;*/
+    padding-top: 30px;
+    text-align: right;
+}
+
+html{
+    scroll-behavior:smooth;
 }
